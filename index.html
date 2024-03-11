@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="https://kit.fontawesome.com/69bd2e7207.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <link rel="website icon" type="png" href="img/calculadora.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Calculadora de pablito</h1>
+        <div class="molde">
+            <span class="input">
+                <input type="number" id="resultado" placeholder="..." readonly>
+                <input type="number" id="ingreso">
+            </span>
+            <span class="icons">
+                <i class="fa-solid fa-xmark" id="multiplicar"></i>
+                <i class="fa-solid fa-plus" id="sumar"></i>
+                <i class="fa-solid fa-minus" id="restar"></i>
+                <i class="fa-solid fa-divide" id="dividir"></i>
+                <i class="fa-solid fa-eraser" id="borrar"></i>
+            </span>
+        </div>
+    </main>
+    <script src="backend.js"></script>
+</body>
+</html>
