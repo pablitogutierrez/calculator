@@ -78,7 +78,7 @@ input:focus{
     transition: 0.2s;
 }
 
-.icons i:hover{
+.icons i:active{
     transform: scale(1.1);
 }
 
